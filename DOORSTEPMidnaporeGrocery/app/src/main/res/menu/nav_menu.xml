@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/nav_main_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home_main"
+            android:title="@string/home"
+            android:checked="true"/>
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_needs_category"
+            android:icon="@drawable/nav_home"
+            android:title="@string/home_needs"/>
+        <item
+            android:id="@+id/nav_men_needs_category"
+            android:icon="@drawable/nav_men"
+            android:title="@string/men_needs"/>
+        <item
+            android:id="@+id/nav_women_needs_category"
+            android:icon="@drawable/nav_women"
+            android:title="@string/women_needs"/>
+        <item
+            android:id="@+id/nav_kids_needs_category"
+            android:icon="@drawable/nav_kid"
+            android:title="@string/kids_needs"/>
+        <item
+            android:id="@+id/nav_babies_needs_category"
+            android:icon="@drawable/nav_baby"
+            android:title="@string/babies_needs"/>
+        <item
+            android:id="@+id/nav_students_needs_category"
+            android:icon="@drawable/nav_student"
+            android:title="@string/students_needs"/>
+        <item
+            android:id="@+id/nav_other_needs_category"
+            android:icon="@drawable/nav_others"
+            android:title="@string/other_needs"/>
+    </group>
+
+    <group
+        android:id="@+id/nav_user_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/nav_orders"
+            android:title="@string/my_orders"/>
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/nav_cart"
+            android:title="@string/my_cart"/>
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/nav_men"
+            android:title="@string/my_account"/>
+        <item
+            android:id="@+id/nav_my_notifications"
+            android:icon="@drawable/nav_offer"
+            android:title="@string/offer_zone"/>
+        <item
+            android:id="@+id/nav_ask"
+            android:icon="@drawable/nav_message"
+            android:title="@string/message_to_us" />
+    </group>
+
+</menu>
